@@ -1,0 +1,239 @@
+@font-face {
+    font-family: eds;
+    src: url("../fonts/edwardianscriptict.ttf");
+}
+
+
+/*-------------Custom CSS------------------*/
+#food_order .cu_bg{
+    background: #20324f;
+}
+
+#food_order .logo{
+    font-family: eds;
+    color: #afb9bb;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+#food_order .cu_font{
+    font-family: 'Chivo', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+#food_order .cu_p_font{
+    font-family: 'Chivo', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+#food_order .cu_title_font{
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+#food_order .cu_icon{
+    color: #20324f;
+}
+
+#food_order .cu_btn{
+    font-family: 'Chivo', sans-serif;
+    background-color: #20324f;
+    color: #fff;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* body{
+    background: #000 !important;
+} */
+
+
+
+
+
+
+/*============modify bootstrap==============*/
+
+/*---nav bar---*/
+.dropdown-item:focus, 
+.dropdown-item:hover{
+    background-color: #f2f5f8;
+}
+
+#food_order a.dropdown-item:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: rgba(227, 227, 231, 0.507);
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover{
+    text-decoration: none;
+    outline: none;
+    border-color: rgba(227, 227, 231, 0.9);
+}
+
+.navbar-toggler{
+    padding: .2rem .4rem;
+    font-size: 1rem;
+    outline: none;
+    border-color: #fff;
+}
+
+.navbar-toggler-icon{
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.dropdown-item{
+    padding: 0.5rem 1.5rem;
+}
+
+
+@media (min-width: 992px)
+{
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0.7rem;
+        padding-left: 0.7rem;
+    }
+}
+
+
+
+
+
+
+
+/*---slider---*/
+.carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+#food_order .slider{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#food_order .cu_sld_title{
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    z-index: 10;
+}
+
+#food_order .cu_sld_title p:first-child{
+    letter-spacing: 7px;
+    font-size: 17px;
+    color: #afb9bb;
+    margin: 0;
+}
+
+#food_order .cu_sld_title p:nth-child(2){
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#food_order .cu_sld_title a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #20324f;
+    padding: 8px 25px;
+    border-radius: 0 35px 0 35px;
+    border: 1px solid #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+    left: 60%;
+    position: inherit;
+}
+
+#food_order .cu_sld_title a:focus,
+#food_order .cu_sld_title a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .5s ease;
+}
+
+#food_order .layer_pannel{
+    z-index: 3;
+    position: absolute;
+    /* background-color: #a7b0d9; */
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+
+
+/*-----welcome------*/
+#food_order .order{
+    padding-top: 50px;
+    height: 800px;
+}
+
+#food_order .cu_od_title{
+    font-family: 'Chivo', sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #000;
+}
+
+#food_order .nav-tabs{
+    border-bottom: 2px solid #dee2e6;
+}
+
+#food_order .nav-tabs .nav-item.show .nav-link:hover{
+    border-color: #fff #fff transparent;
+}
+
+#food_order .nav-tabs .nav-link.active{
+    font-weight: 600;
+    color: #000;
+    border-color: #fff #fff #20324f;
+    border-width: 2px;
+ }
+
+ #food_order .cu_btn:hover{
+     opacity: 0.93;
+ }
+
+ #food_order .jumbotron{
+    background-color: #fff !important;
+}
+
+@media (min-width: 576px)
+{
+    .jumbotron{
+        padding: 4rem 2rem 1rem !important;
+    }
+}
+
+#food_order .cu_title_font{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#food_order .cu_lb_font{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
