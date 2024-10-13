@@ -6,6 +6,10 @@
     font-weight: 500;
 }
 
+.app-download p {
+    color: #20324f;
+}
+
 .app-download-platforms {
     display: flex;
     justify-content: center;

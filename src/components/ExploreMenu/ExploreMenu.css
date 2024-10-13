@@ -5,7 +5,7 @@
 }
 
 .explore-menu h1 {
-    color: #262626;
+    color: #20324f;
     font-weight: 500;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .explore-menu-list-item .active {
-    border: 4px solid tomato;
+    border: 4px solid #20324f;
     padding: 2px;
 }
 

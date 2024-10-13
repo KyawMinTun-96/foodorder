@@ -29,6 +29,10 @@
     cursor: pointer;
 }
 
+.cart-items-item .cart-cross img {
+    width: 16px;
+}
+
 .cart-bottom {
     margin-top: 80px;
     display: flex;
@@ -56,7 +60,7 @@
 .cart-total button{
     border: none;
     color: #fff;
-    background-color: tomato;
+    background-color: #20324f;
     width: max(15vw, 200px);
     padding: 12px 0px;
     cursor: pointer;

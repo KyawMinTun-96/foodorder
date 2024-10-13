@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Footer.css'
 import {assets} from '../../assets/imgs/others/assets'
 
@@ -10,9 +11,15 @@ const Footer = () => {
             <img src={assets.logo} alt='...' />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam porro dignissimos laborum voluptate iusto voluptatum neque. Quidem vitae repellat ipsum, dolorem dolore iure? Corporis nam optio modi aliquam cumque ducimus.</p>
             <div className='footer-social-icons'>
-                <img src={assets.facebook_icon} alt='...'/>
+              <a href='https://www.facebook.com' target="_blank" rel='noreferrer'>
+                <img src={assets.facebook_icon} alt='...' />
+              </a>
+              <a href='https://www.twitter.com' target="_blank" rel='noreferrer'>
                 <img src={assets.twitter_icon} alt='...' />
+              </a>
+              <a href='https://www.linkedin.com' target="_blank" rel='noreferrer'>
                 <img src={assets.linkedin_icon} alt='...' />
+              </a>
             </div>
         </div>
         <div className='footer-content-center'>
