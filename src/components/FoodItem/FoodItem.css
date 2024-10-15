@@ -56,6 +56,10 @@
     position: relative;
 }
 
+.food-item-img-container img {
+    cursor: pointer;
+}
+
 .food-item-img-container .add {
     width: 35px;
     position: absolute;

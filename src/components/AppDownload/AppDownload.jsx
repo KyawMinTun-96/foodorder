@@ -7,8 +7,13 @@ const AppDownload = () => {
     <div className='app-download' id='app-download'>
         <p>For Better Experience Download <br/> Food Order App</p>
         <div className='app-download-platforms'>
-            <img src={assets.play_store} alt='...' />
-            <img src={assets.app_store} alt='...' />
+            <a href='https://play.google.com/store/apps' rel='noreferrer' target='_blank'>
+              <img src={assets.play_store} alt='...' />
+            </a>
+            <a href='https://www.apple.com/store' rel='noreferrer' target='_blank'>
+              <img src={assets.app_store} alt='...' />
+            </a>
+            
         </div>
     </div>
   )

@@ -17,7 +17,7 @@
     margin-top: 40px;
 }
 
-.app-download-platforms img {
+.app-download-platforms a img {
     width: max(30vw, 120px);
     max-width: 180px;
     transition: 0.5s;
@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 
-.app-download-platforms img:hover {
+.app-download-platforms a img:hover {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
